@@ -7,6 +7,7 @@ body {
 	font-family: Arial Black;
 	color: black;
 	height: 100%;
+	background-color:white;
 }
 
 .dudeBackground {
@@ -23,7 +24,6 @@ p {
 	font-family: Courier;
 	font-size: 13px;
 }
-
 
 .container {
 	width: 100%;
