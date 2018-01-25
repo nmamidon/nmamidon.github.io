@@ -7,13 +7,9 @@ body {
 	font-family: Arial Black;
 	color: black;
 	height: 100%;
-	background-color:white;
-}
-
-.dudeBackground {
-	height: 100%;
 	background-image: url("assets/little_dude_icon_4.png");
-	background-size: 800px;
+	background-size: 1920px;
+	background-position: center;
 }
 
 h1, p {
@@ -28,12 +24,10 @@ p {
 .container {
 	width: 100%;
 	height: 94%;
-	display: flex;
-	flex-direction: column;
 }
 
 .dudeIcon {
-	margin: 10% auto;
+	margin: 10% 50%;
 	width: 150px;
 	height: 150px;
 	transition: 20s;
@@ -44,17 +38,21 @@ p {
 }
 
 .navbar {
-	margin: 0;
+	position: fixed;
+	top:50%;
+	width:100%;
+	height: 55px;
 	background-color: white;
 }
 
 
 ul {
-	margin: 0 auto;
-	height:10px;
-	width: 60%;
+	margin: 0;
 	list-style: none;
 	padding: 0px;
+	display: flex;
+	justify-content: center;
+
 }
 
 ul li {
