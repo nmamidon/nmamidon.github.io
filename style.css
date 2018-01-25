@@ -106,9 +106,32 @@ footer {
 	float:left;	
 	width: 200px;
 	height: 200px;
-	background-color: gray;
+	background-color: #f4f4f4;
+	background-size: 500px;
+	background-position: center;
 	margin: 1px;
 }
+
+#e1 {
+	background-image: url("assets/work/paulfelixpersp1.jpg");
+}
+
+#e2 {
+	background-image: url("assets/work/paulfelixpersp2.jpg");
+}
+
+#e3 {
+	background-image: url("assets/work/paulfelixpersp3.jpg");
+}
+
+#e4 {
+	background-image: url("assets/work/paulfelixpersp4.jpg");
+}
+
+#e5 {
+	background-image: url("assets/work/paulfelixpersp5.jpg");
+}
+
 
 .thoughtEntry {
 	margin: 0 auto;
@@ -117,4 +140,3 @@ footer {
 	background-color: white;
 	padding: 20px 100px;
 }
-
