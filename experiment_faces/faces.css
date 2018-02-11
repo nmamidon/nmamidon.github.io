@@ -1,0 +1,61 @@
+html {
+	background: white no-repeat center fixed;
+	-webkit-background-size: cover;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0px;
+}
+
+#thisone {
+	border-radius: 300px;
+	width:100px;
+	height:100px;
+	background: url("images/side-face.png") fixed center no-repeat;
+	background-size: 600px;
+	margin: 0% auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#thisone:hover {
+	width: 240px;
+	height: 240px;
+}
+
+#thatone {
+	border-radius: 300px;
+	width:100px;
+	height:100px;
+	background: url("images/square-nose.png") fixed center no-repeat;
+	background-size: 600px;
+	margin: % auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#thatone:hover {
+	width: 240px;
+	height: 240px;
+}
+
+#anotherone {
+	border-radius: 300px;
+	width:100px;
+	height:100px;
+	background: url("images/surprise-face.png") fixed center no-repeat;
+	background-size: 600px;
+	margin: 0% auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#anotherone:hover {
+	width: 240px;
+	height: 240px;
+}

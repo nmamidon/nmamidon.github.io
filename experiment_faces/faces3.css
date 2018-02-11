@@ -1,0 +1,61 @@
+html {
+	background: #E3E3E3 url("images/flourishes.png") no-repeat center fixed;
+	-webkit-background-size: 1200px ;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0px;
+}
+
+#leftface {
+	border-radius: 0px;
+	width:120px;
+	height:120px;
+	background: url("images/face2.png") fixed center no-repeat;
+	background-size: 1000px;
+	margin: 0px auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#leftface:hover {
+	width: 120px;
+	height: 225px;
+}
+
+#straightface {
+	border-radius: 0px;
+	width:120px;
+	height:120px;
+	background: url("images/face1.png") fixed center no-repeat;
+	background-size: 1000px;
+	margin: 0px auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#straightface:hover {
+	width: 120px;
+	height: 225px;
+}
+
+#rightface {
+	border-radius: 0px;
+	width:120px;
+	height:120px;
+	background: url("images/face3.png") fixed center no-repeat;
+	background-size: 1000px;
+	margin: 0px auto;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
+}
+
+#rightface:hover {
+	width: 120px;
+	height: 225px;
+}
