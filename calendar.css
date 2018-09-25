@@ -23,6 +23,10 @@
 	color:black;
 }
 
+.listItem:hover {
+	background-color: grey;
+}
+
 .calendarBox {
 	flex-grow: 6;
 	display: flex;
@@ -39,7 +43,7 @@
 
 .day {
 	flex-grow:1;
-	flex-shrink: 1;
+	flex-shrink: 2;
 	background-color: black;
 	border-radius: 8px;
 	color:white;
@@ -49,8 +53,12 @@
 	text-align:center;
 }
 
+.day:hover {
+	background-color:grey;
+}
+
 #selectedDay {
-	
+
 }
 
 #selectedWeek {
